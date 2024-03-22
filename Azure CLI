@@ -1,0 +1,4 @@
+az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
+kubectl get nodes
+NAME                                STATUS   ROLES   AGE     VERSION
+aks-nodepool1-31718369-0   Ready    agent   6m44s   v1.15.10
